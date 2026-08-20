@@ -10,12 +10,7 @@ import { clerkMiddleware } from '@clerk/express';
 
 import User from "./models/user.model.js"
 import { connectDB } from './lib/db.js';
-<<<<<<< HEAD
 import { job } from './lib/cron.js';
-=======
-import job from "./lib/cron.js";
->>>>>>> e50cdbaffa5698acce6a49880820599b251d1503
-
 
 const app = express();
 const PORT = process.env.PORT || 3000;
